@@ -1,0 +1,35 @@
+.stock-select label {
+  padding-right: 1rem;
+  font-weight: bold;
+}
+
+.stock-select .ant-select-auto-complete {
+  min-width: 240px;
+}
+
+.stock-select .stock-select-list {
+  margin-top: 1rem;
+  list-style-type: none;
+  line-height: 2rem;
+}
+
+.stock-select-list > li {
+  display: inline-block;
+}
+
+ul.stock-select-list:before {
+  content: attr(aria-label);
+  font-weight: bold;
+}
+
+.stock-select-list > li .stock-pick-button {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.stock-select-error {
+  color: red;
+  margin-left: 2.5rem;
+  height: 2rem;
+  line-height: 2rem;
+}
